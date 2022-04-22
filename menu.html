@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
   font-size: 24px;
@@ -20,7 +23,16 @@ ul {
 li {
   float: left;
 }
-
+  
+li-right {
+  float: right;
+ }
+ sm-right {
+   float: right;
+  }
+.fa-instagram {
+  color: limegreen;
+}
 li a {
   display: block;
   color: limegreen;
@@ -29,8 +41,28 @@ li a {
   text-decoration: none;
   font-family: fantasy;
 }
-
+li-right a {
+  display: block;
+  color: limegreen;
+  text-align: center;
+  padding: 40px;
+  text-decoration: none;
+  font-family: fantasy;
+}
+  
+sm-right a {
+  display: block;
+  color: limegreen;
+  text-align: center;
+  padding: 43px;
+  text-decoration: none;
+  font-family: fantasy;
+}
+  
 li a:hover {
+  background-color: #808080;
+}
+sm-right a:hover {
   background-color: #808080;
 }
 
@@ -42,14 +74,19 @@ li a:hover {
 <body>
 
 <style>
-li{font-size: 36px;
+li{font-size: 30px;
 font-family: fantasy;}
+li-right{font-size: 30px;
+  font-family: fantasy;}
+  sm-right{font-size: 30px;}
  </style>
 <ul>
   <li><img src="https://live.staticflickr.com/65535/52018979611_4a5e21ac1c_h.jpg" height="100px">
   <li><a href="https://rupertoskitchen.github.io/Website/">Home</a></li>
   <li><a class="active" href="https://rupertoskitchen.github.io/Website/menu">Menu</a></li>
   <li><a href="#AboutUs">About Us</a></li>
+  <sm-right><a href="https://www.instagram.com/rupertoskitchen/" class="fa fa-instagram"></a></sm-right>
+  <li-right><a>(805)668-7999</a></li-right>
   </ul>
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
  </style>
